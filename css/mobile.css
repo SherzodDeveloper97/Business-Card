@@ -1,0 +1,156 @@
+@media (max-width: 1960px) {
+  .container {
+    max-width: 95%;
+    width: 100%;
+  }
+  .accaunt_info .triangle {
+    top: -24px;
+  }
+}
+@media (max-width: 1011px) {
+  .main_block {
+    justify-content: space-between;
+  }
+  .block_left {
+    margin-right: 0;
+  }
+  .accaunt_info {
+    padding: 5px 80px;
+  }
+}
+@media (max-width: 876px) {
+  .container {
+    max-width: 100%;
+    /* border: 1px solid red; */
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .context_menu {
+    margin-bottom: 30px;
+  }
+  .context {
+    position: relative;
+  }
+  .context a {
+    display: block;
+  }
+  .context_menu_content {
+    position: absolute;
+    right: 16px;
+    top: 20px;
+  }
+  .content_block {
+    /* transform:translateX(-14px); */
+  }
+  .content_block hr {
+    display: none;
+  }
+  .header_content,
+  .main_block {
+    justify-content: unset;
+  }
+  .header_content,
+  .left {
+    flex-direction: column;
+  }
+  .left_info h3 {
+    font-size: 30px;
+  }
+  .right {
+    margin-top: 10px;
+  }
+  .right h5 {
+    font-size: 15px;
+  }
+  .right h5 br {
+    /* display: block; */
+  }
+  .section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .block_left {
+    width: 100%;
+  }
+  .block_right h4 {
+    font-size: 18px;
+  }
+  .accaunt {
+    width: 160px;
+  }
+  .accaunt_info {
+    width: 50%;
+    padding: 5px 0px 5px 0px;
+    margin: 38px auto;
+  }
+  .accaunt_info p {
+    font-size: 18px;
+  }
+  .information a {
+    font-size: 16px;
+  }
+  main {
+    padding-top: 40px;
+  }
+  .main_block {
+    flex-direction: column;
+  }
+  .block_left {
+    margin-right: 0;
+  }
+  .accaunt_info .triangle {
+    top: -22px;
+  }
+  .block_right {
+    margin-top: 35px;
+  }
+  .social_block {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    transform: translateX(-24px);
+    -webkit-transform: translateX(-24px);
+    -moz-transform: translateX(-24px);
+    -ms-transform: translateX(-24px);
+    -o-transform: translateX(-24px);
+  }
+  .social_left {
+    margin-right: 0;
+  }
+  .my_contact {
+    justify-content: space-evenly;
+  }
+  .my_contact .contact {
+    margin-right: 0;
+  }
+  .contact p,
+  .submit p {
+    font-size: 18px;
+  }
+  .submit_block {
+    width: 100%;
+  }
+  .submit {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+@media (max-width: 590px) {
+  .accaunt_info {
+    width: 70%;
+  }
+  .accaunt_info p {
+    font-size: 16px;
+  }
+  .contact {
+    width: 125px;
+  }
+}
+@media (max-width: 444px) {
+  .my_contact {
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+}
