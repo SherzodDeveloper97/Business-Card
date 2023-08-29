@@ -11,21 +11,32 @@ const figureItem = document.querySelector(".accaunt_info .triangle");
 
 // add particles.js file -> by createElement
 const winterStartDate = new Date().getDate();
-const winderStartMonth = new Date().getMonth() + 1;
+const winterStartMonth = new Date().getMonth() + 1;
+const winterHour = new Date().getHours();
+const winterMinute = new Date().getMinutes();
+console.log(winterHour);
+console.log(winterMinute);
 
 console.log(winterStartDate);
-console.log(winderStartMonth);
+console.log(winterStartMonth);
 
 function snowFunc() {
   const snowEffect = document.createElement("script");
-  snowEffect.src = "./js/particles.js";
+  snowEffect.src = "js/particles.js";
   snowEffect.async = true;
+  
   
   body.appendChild(snowEffect);
 }
 
-if(winterStartDate <= 31 && (winderStartMonth == 1 || winderStartMonth == 2 || winderStartMonth == 12) ){
-  snowFunc()
+if(winterStartDate <= 31 && (winterStartMonth == 1 || winterStartMonth == 2 || winterStartMonth == 12) ){
+  snowFunc();
+}else {
+  const scriptTag = document.querySelector('script[src="js/particles.js"]');
+
+  if(scriptTag){
+    scriptTag.remove();
+  }
 }
 
 
